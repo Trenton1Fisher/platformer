@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -11,4 +15,23 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+/* styles.css */
+.default-backround {
+  background-image: url('/homepage.svg');
+  background-size: cover; /* or 'contain' */
+  background-position: center;
+  height: 100vh; /* Full viewport height */
+  overflow: hidden;
+}
+
+.unlimited-play-backround {
+  background-image: url('/unlimited-play.svg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  overflow: hidden;
 }
