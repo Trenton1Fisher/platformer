@@ -19,12 +19,11 @@
   padding: 0;
 }
 
-/* styles.css */
 .default-backround {
   background-image: url('/homepage.svg');
-  background-size: cover; /* or 'contain' */
+  background-size: cover;
   background-position: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh;
   overflow: hidden;
 }
 
